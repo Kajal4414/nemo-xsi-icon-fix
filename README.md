@@ -2,6 +2,22 @@
 Nemo 6+ uses XSI (`xsi-` prefixed symbolic icons).  
 Most icon themes don't provide them fallback to `xapp-symbolic-icons`.
 
+## Disclaimer
+
+This script modifies icon themes by creating symbolic links and updating icon caches.
+
+- Run it at your own risk
+- It requires root privileges
+- It affects all icon themes in `/usr/share/icons`
+
+The script is safe in normal conditions:
+- it does not overwrite existing files
+- it only creates missing `xsi-*` symlinks
+
+However, it is recommended to:
+- test on a non-production system first
+- or use the single-theme variant if unsure
+
 ## Solution
 Create xsi-* symlinks automatically for any theme.
 
@@ -44,3 +60,4 @@ done
 
 gtk-update-icon-cache -f -t ./
 ```
+**If something breaks — you get to keep both pieces :)**
