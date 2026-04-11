@@ -1,6 +1,6 @@
 ## Problem
-Nemo 6+ uses XSI (`xsi-` prefixed symbolic icons).  
-Most icon themes don't provide them fallback to `xapp-symbolic-icons`.
+- Nemo 6+ uses XSI (`xsi-` prefixed symbolic icons).  
+- Most icon themes don't provide them fallback to `xapp-symbolic-icons`.
 
 ## Disclaimer
 
@@ -20,8 +20,8 @@ However, it is recommended to:
 
 ## Solution
 
-- Open the terminal with `su` privileges.
-- Copy the script to the clipboard, paste it into the terminal, and press **Enter**.
+- Open the terminal with `su` privileges
+- Copy the script to the clipboard, paste it into the terminal, and press **Enter**
 
 ### All icon themes will be processed: `/usr/share/icons/*`
 
