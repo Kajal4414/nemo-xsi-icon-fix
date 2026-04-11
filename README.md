@@ -1,6 +1,6 @@
 ## Problem
-Nemo 6+ uses XSI (`xsi-` prefixed symbolic icons).
-Most icon themes don't provide them → fallback to `xapp-symbolic-icons`.
+Nemo 6+ uses XSI (`xsi-` prefixed symbolic icons).  
+Most icon themes don't provide them fallback to `xapp-symbolic-icons`.
 
 ## Solution
 Create xsi-* symlinks automatically for any theme.
