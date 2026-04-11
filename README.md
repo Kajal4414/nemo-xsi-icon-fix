@@ -19,7 +19,6 @@ However, it is recommended to:
 - or use the single-theme variant if unsure
 
 ## Solution
-Create xsi-* symlinks automatically for any theme.
 
 - Open the terminal with `su` privileges.
 - Copy the script to the clipboard, paste it into the terminal, and press **Enter**.
