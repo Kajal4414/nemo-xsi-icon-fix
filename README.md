@@ -34,7 +34,7 @@ done
 ```
 curl -sSL https://raw.githubusercontent.com/AKotov-dev/nemo-xsi-icon-fix/refs/heads/main/nemo-xsi-icon-fix.sh | bash
 ```
-
+  
   
 ### A script variant for selected icon theme
 cd /usr/share/icons/`THEME_NAME`
