@@ -2,22 +2,6 @@
 - Nemo 6+ uses XSI (`xsi-` prefixed symbolic icons)  
 - Most icon themes don't provide them fallback to `xapp-symbolic-icons`
 
-## Disclaimer
-
-This script modifies icon themes by creating symbolic links and updating icon caches.
-
-- Run it at your own risk
-- It requires root privileges
-- It affects all icon themes in `/usr/share/icons`
-
-The script is safe in normal conditions:
-- it does not overwrite existing files
-- it only creates missing `xsi-*` symlinks
-
-However, it is recommended to:
-- test on a non-production system first
-- or use the single-theme variant if unsure
-
 ## Solution
 
 - Open the terminal with `su` privileges
@@ -46,7 +30,7 @@ for theme in /usr/share/icons/*; do
     fi
 done
 ```
-**Directly run the nemo-xsi-icon-fix.sh script from GitHub**
+**Or run the nemo-xsi-icon-fix.sh script directly from GitHub**
 ```
 curl -sSL https://raw.githubusercontent.com/AKotov-dev/nemo-xsi-icon-fix/refs/heads/main/nemo-xsi-icon-fix.sh | bash
 ```
